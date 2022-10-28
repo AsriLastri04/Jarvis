@@ -1,0 +1,1 @@
+Pertemuan minggu ini membahas konfigurasi database dan migrations
