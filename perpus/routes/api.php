@@ -25,3 +25,10 @@ Route::get('/pustakawan', [PustakawanController::class, 'index']);
 // Get all resource
 
 Route::get('/books', [BookController::class, 'index']);
+
+// add resource
+
+Route::post('/books', [BookController::class, 'store' ]);
+
+// get detail resource
+Route::get('/books/{id}', [BookController::class, 'show']);
