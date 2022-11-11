@@ -32,3 +32,5 @@ Route::post('/books', [BookController::class, 'store' ]);
 
 // get detail resource
 Route::get('/books/{id}', [BookController::class, 'show']);
+//edit resource
+Route::put('/books{id}', [BookController::class, 'update']);
